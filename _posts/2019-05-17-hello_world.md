@@ -8,21 +8,27 @@ title: 你好，世界
 <p id="test_3">{{ page.date | date_to_string }}</p>
 
 # Chapter 3
+
 1) The prophets have brought you on Earth the teaching of the truth, the teaching of the spirit, the teaching of
  the life as fulfilment of what preceded it through Nokodemion's teaching; and before this he himself taught
  his teaching to his peoples as a guideline (sign posting/leading thought) to distinguish between being fair and
  unfair, between right and unright and between truth and lie as well as between honesty and unhonesty and
  also between respect and slander (calumny).
+ 
 2) And it is certain that those who deny the truth and the teaching of the prophets do not possess the Gewalt
  of forgiveness, so they cannot forgive those who do terrible things to them; the measure of forgiveness is only
  given to the fair ones (responsible ones) and the knowing ones who forgive those who do terrible things to
  them.
+ 
 3) Truly, all life has been created through the laws of the wellspring of the truth (Creation), and therefore they are the same laws according to which you were created in your mother's womb after fertilisation (procreation).
+
 4) And it is the prophets who have brought you the teaching about how these things happen and how you shall
  behave in your existence and how you shall be openly connected to it at all times, so that you do not bring
  suffering on yourselves and do not rob yourselves of the life.
+ 
 5) The teaching of the prophets is of decisive importance for you and a guideline (sign-posting/leading thought)
  of the life, and therefore a foundation for leading the existence.
+ 
 6) And the teaching of the prophets is not capable of different explanations because it is one teaching only and
  does not allow any misinterpretations; however, there are some amongst you who bear depravity in your
  thoughts and feelings, with the result that you think up from the teaching different explanations against the
