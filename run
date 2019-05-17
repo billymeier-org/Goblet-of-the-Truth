@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+
+system("env PORT=4001 yarn run dev");
