@@ -1,3 +1,15 @@
+---
+title: Goblet of the Truth 「真理之杯」第五章
+category: Part-1
+layout: 2017/sheet
+updated: 2019-05-17
+---
+
+{% include_relative nav.md %}
+ 
+第五章
+--------
+{: .-three-column}
 
 ### 1.
 
