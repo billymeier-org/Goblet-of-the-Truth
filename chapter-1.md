@@ -1,7 +1,7 @@
 ---
 title: Goblet of the Truth 「真理之杯」第一章
 redirect_from: "/"
-category: Part_1
+category: Part-1
 layout: 2017/sheet
 updated: 2019-05-17
 ---
