@@ -1,0 +1,16 @@
+.h3-section > .body > h4:hover {
+    height: auto;
+    overflow: visible;
+
+}
+
+.h3-section > .body > h4 {
+    height: 3.8em;
+    overflow: hidden;
+    z-index: 100;
+    position: relative;
+}
+
+.h3-section > .body > p {
+    font-size: 17px;
+}
