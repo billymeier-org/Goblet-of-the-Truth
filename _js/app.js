@@ -21,7 +21,7 @@ $(function() {
         owner: 'billymeier-org',
         admin: ['MindSalome'],
         id: path[path.length -1], // location.pathname,      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
+        distractionFreeMode: true  // Facebook-like distraction free mode
     });
     
     gitalk.render('gitalk-container');
