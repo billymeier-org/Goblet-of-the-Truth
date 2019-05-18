@@ -35,6 +35,8 @@ $(function() {
         var comment = "#"+number+"\n"+text;
         console.log(comment);
         $('.gt-header-textarea').val(comment);
+
+        jQuery('.gt-header-textarea').trigger(jQuery.Event('keydown', { which: 50 }));
         $.colorbox({
             inline: true,
             href: '#gitalk-container',
