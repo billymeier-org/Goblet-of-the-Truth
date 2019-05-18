@@ -229,13 +229,16 @@ $(function() {
         return data;
     };
     
+    var path = location.pathname.split("/");
+    
+    
     const gitalk = new Gitalk({
         clientID: 'd07e704299ad43d92ba3',
         clientSecret: 'dccb7ae650fa929296b0f7be0b7f2dd7fa2d2c3a',
         repo: 'Goblet-of-the-Truth',
         owner: 'billymeier-org',
         admin: ['MindSalome'],
-        id: 'chapter-1', // location.pathname,      // Ensure uniqueness and length less than 50
+        id: path[path.count -1], // location.pathname,      // Ensure uniqueness and length less than 50
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
     
