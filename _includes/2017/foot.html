@@ -1,5 +1,21 @@
 <!-- critical js -->
+<div id="colorbox" style="display: none;">
+    <div id="comments-container"></div>
+</div>
+<div id="hello-box">
+    hello
+</div>
+<div id="gitalk-container"></div>
+
 <script>{% include 2017/critical/critical.js %}</script>
+
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="{{ base }}/assets/colorbox/jquery.colorbox-min.js?t={{ timestamp }}"></script>
+<script src="{{ base }}/assets/jquery-comments/js/jquery-comments.min.js?t={{ timestamp }}"></script>
+
 <script src='{{base}}/assets/packed/vendor.js?t={{ timestamp }}'></script>
 <script src='{{base}}/assets/packed/app.js?t={{ timestamp }}'></script>
 {% for lang in page.prism_languages %}<script src='https://cdn.jsdelivr.net/npm/prismjs@1.6.0/components/prism-{{lang}}.min.js'></script>{% endfor %}

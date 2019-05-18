@@ -1,9 +1,8 @@
-  {% include about-the-site.html %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+{% include about-the-site.html %}
 
 {% comment %}<!-- https://github.com/highlightjs/cdn-release/tree/master/build/languages -->{% endcomment %}
 {% for lang in page.hljs_languages %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/languages/{{lang}}.min.js"></script>
+    <script src="https://cdnjs.loli.net/ajax/libs/highlight.js/8.5/languages/{{ lang }}.min.js"></script>
 {% endfor %}
 
 <script src="https://cdn.rawgit.com/rstacruz/unorphan/v1.0.1/index.js"></script>
