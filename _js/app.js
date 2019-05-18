@@ -36,7 +36,7 @@ $(function() {
         console.log(comment);
         $('.gt-header-textarea').val(comment);
 
-        jQuery('.gt-header-textarea').trigger(jQuery.Event('keydown', { keyCode: 13}));
+        jQuery('.gt-header-textarea').trigger(jQuery.Event("keypress", { keyCode: 13}));
         $.colorbox({
             inline: true,
             href: '#gitalk-container',
