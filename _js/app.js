@@ -32,7 +32,9 @@ $(function() {
         var number = h3[0], chapter = h3[1];
         console.log({number: number, chapter: chapter});
         var box = $('#colorbox');
-        $('.gt-header-textarea').text("#"+number+"\n"+text);
+        var comment = "#"+number+"\n"+text;
+        console.log(comment);
+        $('.gt-header-textarea').text(comment);
         $.colorbox({
             inline: true,
             href: '#gitalk-container',
