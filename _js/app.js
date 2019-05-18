@@ -230,7 +230,7 @@ $(function() {
     };
     
     var path = location.pathname.split("/");
-    
+    console.log(path[path.count -1]);
     
     const gitalk = new Gitalk({
         clientID: 'd07e704299ad43d92ba3',
