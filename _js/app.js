@@ -34,7 +34,7 @@ $(function() {
         var box = $('#colorbox');
         var comment = "#"+number+"\n"+text;
         console.log(comment);
-        $('.gt-header-textarea').text(comment);
+        $('.gt-header-textarea').val(comment);
         $.colorbox({
             inline: true,
             href: '#gitalk-container',
