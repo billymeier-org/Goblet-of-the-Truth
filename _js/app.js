@@ -1,5 +1,5 @@
 // 3rd party libs
-window.Prism = require('prismjs')
+window.Prism = require('prismjs');
 
 // All the others
 function requireAll(r) {
@@ -13,18 +13,22 @@ $(function() {
     
     var path = location.pathname.split("/");
     console.log(path[path.length -1]);
+    var isLocal = document.domain == 'localhost';
+    
+   // alert(isLocal);
     
     const gitalk = new Gitalk({
-        clientID: 'd07e704299ad43d92ba3',
-        clientSecret: 'dccb7ae650fa929296b0f7be0b7f2dd7fa2d2c3a',
+        clientID:isLocal ? 'b5dcaf31d35fd93ba76e' : 'd07e704299ad43d92ba3',
+        clientSecret: isLocal ? '229104e353bda551c19b3f22548d11d28d9335b0' : 'dccb7ae650fa929296b0f7be0b7f2dd7fa2d2c3a',
         repo: 'Goblet-of-the-Truth',
         owner: 'billymeier-org',
         admin: ['MindSalome'],
-        id: path[path.length -1], // location.pathname,      // Ensure uniqueness and length less than 50
+        id: path[path.length -1].replace(".html",""), // location.pathname,      // Ensure uniqueness and length less than 50
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
     
     gitalk.render('gitalk-container');
+    
     
     $(".h3-section .body > p").click(function() {
         var text = $(this).text();
